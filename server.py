@@ -40,6 +40,12 @@ def handel_client(client_socket, address):
             if not message:
                 break
 
+            if message.strip().startswith("/users"):
+                with lock:
+                    user_list = ", ".join([u for _, u in clients])
+                client_socket.send(f" Online: {user_list}".encode("utf-8"))
+                continue
+
             broadcast(f"[{username}] {message}", client_socket)
             print(f" [{username}] {message}")
 
