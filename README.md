@@ -6,7 +6,9 @@ in real time.
 
 ## 📸 Demo
 
-*(coming soon)*
+<a href="https://asciinema.org/a/vZayJBy6OiXR92aZ" target="_blank">
+  <img src="https://asciinema.org/a/vZayJBy6OiXR92aZ.svg" alt="Demo" width="700"/>
+</a>
 
 ## 🔧 How It Works
 
