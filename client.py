@@ -15,7 +15,7 @@ def receive_messages(client_socket):
                 print("\n [!] Disconnected from server.")
                 sys.exit(0)
 
-            print(f"\n{message}")
+            print(f"\r{' ' * 40}\r{message}")
             print("You: ", end="", flush=True)
 
         except:
